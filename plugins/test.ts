@@ -1,5 +1,5 @@
 import axios from 'axios'
 
 export default defineNuxtPlugin(nuxtApp => {
-    console.log(axios);
+    console.log("From test nuxt layer, log axios:", axios);
 })
